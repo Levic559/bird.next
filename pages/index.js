@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import ButtonLeviUI from '../comps/buttonlevi'
+
+
 
 export default function Home() {
   return (
@@ -7,9 +10,13 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+       
       </Head>
 
       <main className={styles.main}>
+      <ButtonLeviUI/>
+      <ButtonLeviUI width={200}/>
+        
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -24,7 +31,7 @@ export default function Home() {
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
-
+          
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Learn &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
