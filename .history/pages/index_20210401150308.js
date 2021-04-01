@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <ButtonAly
     
       </Head>
 
@@ -15,7 +16,6 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-        <ButtonAlyUI/>
 
         <p className={styles.description}>
           Get started by editing{' '}

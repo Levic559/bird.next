@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import ButtonAlyUI from '../comps/buttonaly/index.js'
+import ButtonAlyUI from '../comps/buttonaly'
+
 
 export default function Home() {
   return (
@@ -15,7 +16,6 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-        <ButtonAlyUI/>
 
         <p className={styles.description}>
           Get started by editing{' '}
