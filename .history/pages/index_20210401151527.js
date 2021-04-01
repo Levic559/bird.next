@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+<<<<<<< HEAD
 import ButtonAdrianUI from '../comps/buttonadrian/index.js'
+=======
 import ButtonLeviUI from '../comps/buttonlevi'
 
 
+>>>>>>> e08a80e77030bb846b4ca1621c24b0685ad194a2
 
 export default function Home() {
   return (
